@@ -49,18 +49,19 @@ Today they: Read the client email and understand context + requirements (includi
   file, copy-paste products from the Excel catalog into the template, add prices
   based on context, then email the finished file to the client. Entirely manual,
   per inquiry.
-Smallest shippable: Three skills that mimic the workflow —
+Smallest shippable: <narrowest slice that delivers value this week (left blank; varies per build)>
+Closest existing thing: Comena (YC-backed) automates this for some industries. Ours
+  differs — built for the UAE market and for businesses that operate ad hoc, where
+  processes change weekly.
+10x version: Three skills that mimic the workflow —
   (1) inquiry-parser: .eml email → requirements JSON;
   (2) product-matcher: requirements JSON + catalog Excel → recommended-products JSON
       (max 3 recommendations per requirement);
   (3) excel-quote-builder: recommended-products JSON → quotation Excel following the
       company template.
-Closest existing thing: Comena (YC-backed) automates this for some industries. Ours
-  differs — built for the UAE market and for businesses that operate ad hoc, where
-  processes change weekly.
-10x version: An AI brain that reads the company's email inbox, builds context on
-  each client, infers product pricing from that client context, auto-fills pricing,
-  and sends instant quote replies for inquiries that match a recurring pattern.
+  Then, an AI brain that reads the company's email inbox, builds context on each
+  client, infers product pricing from that client context, auto-fills pricing, and
+  sends instant quote replies for inquiries that match a recurring pattern.
 Success = <a behavior or number that means it worked (left blank; varies per build)>
 Output: concrete build plan — ordered steps + the wedge to ship first
 ```
